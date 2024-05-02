@@ -16,7 +16,7 @@
 ## Prerequisites
 
 1. Your laptop/computer must be **connected to the Wi-Fi** network whose router or site login page will be pentested.
-2. A laptop/computer that has `python3` installed.
+2. A laptop/computer that has `Python 3.x` installed.
 
 ### How to install Python/Python3
 
@@ -42,7 +42,7 @@ Wifi-Sploit provides three scripts:
 
 - Utilizes Selenium to interact with login pages through a web browser.
 - Also designed for router login pages but adaptable to other websites' login pages.
-- Requires Python and Selenium WebDriver.
+- Requires Python 3.x and Selenium WebDriver.
 - Usage: `python3 wfs-browser.py`.
 - Similar prerequisites apply as in `wfs.py`.
 
@@ -51,7 +51,7 @@ Wifi-Sploit provides three scripts:
 - Another Selenium-based script but with customizable HTML element names.
 - Offers more flexibility in specifying HTML element names for username, password, and submit button.
 - Useful when the default element names don't match the target webpage's structure.
-- Requires Python and Selenium WebDriver.
+- Requires Python 3.x and Selenium WebDriver.
 - Usage: `python3 wfs-browser-input.py`.
 - Allows users to specify HTML element names for username, password, and submit button.
 
