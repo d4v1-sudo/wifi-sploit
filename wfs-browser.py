@@ -72,7 +72,7 @@ def brute_with_requests(username, password):
         print("\nBrute Forcing...")
         print("[+] Username: ", username)
         print("[+] Password: ", password)
-        print("Server Response:", r.content)
+        print("Server Response:", r_content)
         sys.exit()
 
 def brute(username, password):
