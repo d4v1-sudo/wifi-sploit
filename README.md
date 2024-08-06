@@ -5,7 +5,7 @@
 </div>
 <h3 style="text-align:center;">WiFi-Sploit</h3>
 <p style="text-align:center;">
-   🔒 A password cracker for any login page
+   🔒 Complete scripts to brute-force any login page
 </p>
 
 ## About
@@ -28,32 +28,23 @@
 
 ## About the Scripts
 
-Wifi-Sploit provides three scripts:
-
-### wfs.py
-
-- This script performs password brute-forcing on a login page.
-- Initially designed for router login pages but works on any login page of a website.
-- Requires Python 3.x
-- Usage: `python3 wfs.py`.
-- Before running, ensure you have the router's IP address, usernames, and passwords.
+Wifi-Sploit provides two scripts:
 
 ### wfs-browser.py
 
-- Utilizes Selenium to interact with login pages through a web browser.
-- Also designed for router login pages but adaptable to other websites' login pages.
-- Requires Python 3.x and Selenium WebDriver.
-- Usage: `python3 wfs-browser.py`.
-- Similar prerequisites apply as in `wfs.py`.
-
-### wfs-browser-input.py
-
-- Another Selenium-based script but with customizable HTML element names.
+- Utilizes Selenium-based script with customizable HTML element names.
+- Uses firefox webdriver
 - Offers more flexibility in specifying HTML element names for username, password, and submit button.
 - Useful when the default element names don't match the target webpage's structure.
 - Requires Python 3.x and Selenium WebDriver.
-- Usage: `python3 wfs-browser-input.py`.
+- Usage: `python3 wfs-browser.py`.
 - Allows users to specify HTML element names for username, password, and submit button.
+
+### wfs-chrome.py
+
+- Basically the ```wfs-browser-input.py``` but using google chrome instead of firefox (that I recommend the most)
+- Usage*: `python3 wfs-chrome.py`
+  *Verify instructions below before run
 
 <br />
 
@@ -64,6 +55,25 @@ Wifi-Sploit provides three scripts:
 chmod +x /PATH-TO/selenium/webdriver/common/linux/selenium-manager
 ```
 - On windows: just to be sure, run the scripts as administrator
+
+## Before Running `wfs-chrome.py`:
+
+- On linux:
+```bash
+unzip chromedriver_linux64.zip
+sudo cp chromedriver /usr/local/bin
+```
+And install chrome 114 from [https://bestim.org/chrome-114.html](https://bestim.org/chrome-114.html) (dependencies: ```fonts-liberation```, ```libu2f-udev``` and ```libvulkan1``` → ```sudo apt install fonts-liberation libu2f-udev libvulkan1 -y```)
+
+- On windows:
+  Install chrome 114 from [https://bestim.org/chrome-114.html](https://bestim.org/chrome-114.html)
+  Install chromedriver from [https://storage.googleapis.com/chrome-for-testing-public/127.0.6533.88/win64/chrome-win64.zip](https://storage.googleapis.com/chrome-for-testing-public/127.0.6533.88/win64/chrome-win64.zip)
+  Change wfs-chrome.py line 81 to:
+  ```
+  service = Service('C:/PATH/TO/chromedriver.exe')
+  ```
+
+For more chromedriver options acess: [https://getwebdriver.com/chromedriver](https://getwebdriver.com/chromedriver)
 
 ## Running the Scripts
 
@@ -81,15 +91,11 @@ cd wifi-sploit
 ```bash
 pip install -r requirements.txt
 ```
-or
-```bash
-pip3 install -r requirements.txt
-```
 
 4. Run the desired script:
    - For `wfs.py`: `python3 wfs.py`
    - For `wfs-browser.py`: `python3 wfs-browser.py`
-   - For `wfs-browser-input.py`: `python3 wfs-browser-input.py`
+   - For `wfs-chrome.py`: `python3 wfs-browser-input.py`
 
 <br />
 
