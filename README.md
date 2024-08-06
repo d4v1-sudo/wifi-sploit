@@ -10,7 +10,7 @@
 
 # **Beta** branch: 
  - Just uses browsers, some things fixed and new script to use google chrome.
- - Removed wfs.py because as I didn't click any button, I couldn't be sure about the login status.
+ - Removed wfs.py because as it didn't click any button, I couldn't be sure about the login status.
 
 ## About
  - Originally made for `python2` but now just works using `python3`.
@@ -97,7 +97,7 @@ pip install -r requirements.txt
 
 4. Run the desired script:
    - For `wfs-browser.py`: `python3 wfs-browser.py`
-   - For `wfs-chrome.py`: `python3 wfs-browser-input.py`
+   - For `wfs-chrome.py`: `python3 wfs-chrome.py`
 
 <br />
 
