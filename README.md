@@ -10,7 +10,7 @@
 
 # **Beta** branch: 
  - Just uses browsers, some things fixed and new script to use google chrome.
- - Removed wfs.py because as it didn't click any button, I couldn't be sure about the login status.
+ - Removed wfs.py because as it didn't click any button, so you couldn't be sure about the login status.
 
 ## About
  - Originally made for `python2` but now just works using `python3`.
