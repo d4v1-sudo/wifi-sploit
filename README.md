@@ -8,6 +8,8 @@
    🔒 A password cracker for any login page
 </p>
 
+**Checkou the new ```beta``` branch
+
 ## About
 
  - Originally made for `python2` but now just works using `python3`.
