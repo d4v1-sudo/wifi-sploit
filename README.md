@@ -93,7 +93,6 @@ pip install -r requirements.txt
 ```
 
 4. Run the desired script:
-   - For `wfs.py`: `python3 wfs.py`
    - For `wfs-browser.py`: `python3 wfs-browser.py`
    - For `wfs-chrome.py`: `python3 wfs-browser-input.py`
 
