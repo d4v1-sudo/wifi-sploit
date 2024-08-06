@@ -48,7 +48,7 @@ Wifi-Sploit provides two scripts:
 
 <br />
 
-## Before Running the `wfs-browser.py` and `wfs-browser-input.py`:
+## Before Running the scripts:
 
 - On linux:
 ```bash
