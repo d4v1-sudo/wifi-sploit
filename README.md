@@ -8,7 +8,7 @@
    🔒 A password cracker for any login page
 </p>
 
-**Checkou the new ```beta``` branch
+**Checkou the new ```beta``` branch**
 
 ## About
 
