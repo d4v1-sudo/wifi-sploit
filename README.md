@@ -8,8 +8,11 @@
    🔒 Complete scripts to brute-force any login page
 </p>
 
-## About
+# **Beta** branch: 
+ - Just uses browsers, some things fixed and new script to use google chrome.
+ - Removed wfs.py because as I didn't click any button, I couldn't be sure about the login status.
 
+## About
  - Originally made for `python2` but now just works using `python3`.
  - Originally it was made for router's login pages but it works fine in any login page site, even on internet.
 
