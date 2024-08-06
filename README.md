@@ -105,6 +105,7 @@ pip install -r requirements.txt
 
 - It is recommended to check out the `address.md` file for the Wi-Fi router's IP address before running the scripts.
 - Default usernames and passwords for Wi-Fi routers can be found in the `username.txt` and `password.txt` files, respectively.
+- Don't want the browser screen? No problem! Find ```options.headless = True``` and change it to ```False```
 - Remember, these tools are for educational purposes only. Misuse is not condoned.
 
 <br />
