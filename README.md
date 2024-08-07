@@ -62,11 +62,13 @@ chmod +x /PATH-TO/selenium/webdriver/common/linux/selenium-manager
 ## Before Running `wfs-chrome.py`:
 
 - On linux:
+Download chromedriver for linux 64-bits: [https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip](https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip)
+And then:
 ```bash
 unzip chromedriver_linux64.zip
 sudo cp chromedriver /usr/local/bin
 ```
-And install chrome 114 from [https://bestim.org/chrome-114.html](https://bestim.org/chrome-114.html) (dependencies: ```fonts-liberation```, ```libu2f-udev``` and ```libvulkan1``` → ```sudo apt install fonts-liberation libu2f-udev libvulkan1 -y```)
+And install chrome 114 version from [https://bestim.org/chrome-114.html](https://bestim.org/chrome-114.html) (dependencies: ```fonts-liberation```, ```libu2f-udev``` and ```libvulkan1``` → ```sudo apt install fonts-liberation libu2f-udev libvulkan1 -y```)
 
 - On windows:
   Install chrome 114 from [https://bestim.org/chrome-114.html](https://bestim.org/chrome-114.html)
