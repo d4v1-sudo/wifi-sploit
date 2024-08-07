@@ -63,6 +63,7 @@ chmod +x /PATH-TO/selenium/webdriver/common/linux/selenium-manager
 
 - On linux:
 Download chromedriver for linux 64-bits: [https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip](https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip)
+
 And then:
 ```bash
 unzip chromedriver_linux64.zip
@@ -72,7 +73,9 @@ And install chrome 114 version from [https://bestim.org/chrome-114.html](https:/
 
 - On windows:
   Install chrome 114 from [https://bestim.org/chrome-114.html](https://bestim.org/chrome-114.html)
+  
   Install chromedriver from [https://storage.googleapis.com/chrome-for-testing-public/127.0.6533.88/win64/chrome-win64.zip](https://storage.googleapis.com/chrome-for-testing-public/127.0.6533.88/win64/chrome-win64.zip)
+  
   Change wfs-chrome.py line 81 to:
   ```
   service = Service('C:/PATH/TO/chromedriver.exe')
