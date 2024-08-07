@@ -69,11 +69,11 @@ And then:
 unzip chromedriver_linux64.zip
 sudo cp chromedriver /usr/local/bin
 ```
-And install chrome 114 version from [https://bestim.org/chrome-114.html](https://bestim.org/chrome-114.html) (dependencies: ```fonts-liberation```, ```libu2f-udev``` and ```libvulkan1``` → ```sudo apt install fonts-liberation libu2f-udev libvulkan1 -y```)
+And install chrome version 114 from [https://bestim.org/chrome-114.html](https://bestim.org/chrome-114.html) (dependencies: ```fonts-liberation```, ```libu2f-udev``` and ```libvulkan1``` → ```sudo apt install fonts-liberation libu2f-udev libvulkan1 -y```)
 
 - On windows:
   
-  Install chrome 114 from [https://bestim.org/chrome-114.html](https://bestim.org/chrome-114.html)
+  Install chrome version 114 from [https://bestim.org/chrome-114.html](https://bestim.org/chrome-114.html)
   
   Install chromedriver from [https://storage.googleapis.com/chrome-for-testing-public/127.0.6533.88/win64/chrome-win64.zip](https://storage.googleapis.com/chrome-for-testing-public/127.0.6533.88/win64/chrome-win64.zip)
   
