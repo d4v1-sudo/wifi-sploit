@@ -79,7 +79,7 @@ And install chrome version 114 from [https://bestim.org/chrome-114.html](https:/
   
   Change wfs-chrome.py line 81 to:
   ```
-  service = Service('C:/PATH/TO/chromedriver.exe')
+  service = Service('C:/<PATH/TO>/chromedriver.exe')
   ```
 
 For more chromedriver options acess: [https://getwebdriver.com/chromedriver](https://getwebdriver.com/chromedriver)
