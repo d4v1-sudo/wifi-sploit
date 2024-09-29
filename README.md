@@ -45,8 +45,8 @@ Wifi-Sploit provides three scripts:
 - Utilizes Selenium to interact with login pages through a web browser.
 - Also designed for router login pages but adaptable to other websites' login pages.
 - Requires Python 3.x and Selenium WebDriver.
+- Predefined elements with `name` attributes: `username` for user and `password` for password
 - Usage: `python3 wfs-browser.py`.
-- Similar prerequisites apply as in `wfs.py`.
 
 ### wfs-browser-input.py
 
@@ -99,6 +99,8 @@ pip3 install -r requirements.txt
 
 - It is recommended to check out the `address.md` file for the Wi-Fi router's IP address before running the scripts.
 - Default usernames and passwords for Wi-Fi routers can be found in the `username.txt` and `password.txt` files, respectively.
+- **Important:** The logic implemented in the codes that tells whether a login was successful or not is the absence of a phrase or word in the "expression" set in the codes, so make sure that the phrase that represents a login error on your login page is there and make sure that there are no conflicts with the HTML code, as some words may persist in the HTML even if the login is successful. See more at [HTML.md](HTML.md)
+- Make sure to put the correct inputs in `wfs-browser-input.py` for the code to work correctly, See more at [HTML.md](HTML.md)
 - Remember, these tools are for educational purposes only. Misuse is not condoned.
 
 <br />
