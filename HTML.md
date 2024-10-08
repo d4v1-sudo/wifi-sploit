@@ -47,6 +47,7 @@ So, to begin with, we must identify the inputs and the html button:
 
 In this case, the correct use of `wfs-browser-input.py` would be like this: 
 
+```bash
 ...
 Username html element name (default: username): username 
 Is username element an id or a name? (i/n): i 
@@ -55,6 +56,7 @@ Is password element an id or a name? (i/n): i
 Button html element name (default: button): button 
 Is button element an id or a name? (i/n): i
 ...
+```
 
 ## Analyze error messages
 
