@@ -108,7 +108,7 @@ def main():
     url = get_user_input('http://192.168.1.1', "Router's ip (default: http://192.168.1.1) : ", RESET)
     print("\r")
 
-    expression = {"error", "incorrect", "failure", "try", "again", "invalid"}  # Add your own error messages here
+    expression = {b"error", b"incorrect", b"failure", b"try", b"again", b"invalid"}  # Add your own error messages here
 
     u_name = get_user_input("username", "Username html element name (default: username): ", YELLOW)
     username_element_type = get_user_input("i", "Is username element an id or a name? (i/n): ", YELLOW)
