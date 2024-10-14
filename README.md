@@ -5,7 +5,7 @@
 </div>
 <h3 style="text-align:center;">WiFi-Sploit</h3>
 <p style="text-align:center;">
-   🔒 A password cracker for any login page
+   🔒 A login cracker for any login page
 </p>
 
 **Checkou the new ```beta``` branch**
