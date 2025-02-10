@@ -78,7 +78,9 @@ And install chrome version 114 from [https://bestim.org/chrome-114.html](https:/
   
   Install chrome version 114 from [https://bestim.org/chrome-114.html](https://bestim.org/chrome-114.html)
   
-  Install chromedriver from [https://storage.googleapis.com/chrome-for-testing-public/127.0.6533.88/win64/chrome-win64.zip](https://storage.googleapis.com/chrome-for-testing-public/127.0.6533.88/win64/chrome-win64.zip)
+  Install chromedriver 32 bits from [https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_win32.zip](https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_win32.zip)
+
+  Install chromedriver 64 bits from [https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.53/win64/chromedriver-win64.zip](https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.53/win64/chromedriver-win64.zip)
   
   Change wfs-chrome.py line 81 to:
   ```
