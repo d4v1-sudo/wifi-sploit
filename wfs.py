@@ -41,7 +41,7 @@ def brute(username, password, combinations_tested, total_combinations):
         a = requests.post(url, data=data, headers=headers, verify=False)
         r_content = a.content.lower()
     except requests.exceptions.SSLError as e:
-        print("Erro de SSL:", e)
+        print("SSL error:", e)
         sys.exit(1)
     combinations_tested += 1
     sys.stdout.write("\rCombinations tested: {}/{}".format(combinations_tested, total_combinations))
